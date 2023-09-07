@@ -1,0 +1,101 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "category": "Animals",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What does &quot;hippopotamus&quot; mean and in what langauge?",
+      "correct_answer": "River Horse (Greek)",
+      "incorrect_answers": [
+        "River Horse (Latin)",
+        "Fat Pig (Greek)",
+        "Fat Pig (Latin)"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "The common software-programming acronym &quot;I18N&quot; comes from the term &quot;Interlocalization&quot;.",
+      "correct_answer": "False",
+      "incorrect_answers": ["True"]
+    },
+    {
+      "category": "Vehicles",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "The Italian automaker Lamborghini uses what animal as its logo?",
+      "correct_answer": "Bull",
+      "incorrect_answers": ["Bat", "Horse", "Snake"]
+    },
+    {
+      "category": "Vehicles",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which of these is NOT a car model produced by Malaysian car manufacturer Proton?",
+      "correct_answer": "Kelisa",
+      "incorrect_answers": ["Saga", "Perdana", "Inspira"]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What animal is on Link&#039;s pajamas in The Legend of Zelda: The Wind Waker?",
+      "correct_answer": "Crawfish",
+      "incorrect_answers": ["Lobster", "Salmon", "Swordfish"]
+    },
+    {
+      "category": "Entertainment: Japanese Anime & Manga",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What caused the titular mascot of Yo-Kai Watch, Jibanyan, to become a yokai?",
+      "correct_answer": "Being run over by a truck",
+      "incorrect_answers": [
+        "Ate one too many chocobars",
+        "Through a magical ritual",
+        "When he put on the harmaki"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What does the term MIME stand for, in regards to computing?",
+      "correct_answer": "Multipurpose Internet Mail Extensions",
+      "incorrect_answers": [
+        "Mail Internet Mail Exchange",
+        "Multipurpose Interleave Mail Exchange",
+        "Mail Interleave Method Exchange"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In the &quot;Call Of Duty: Zombies&quot; map &quot;Moon&quot;, there is a secondary called the QED. What does QED stand for?",
+      "correct_answer": "Quantum Entanglement Device",
+      "incorrect_answers": [
+        "Quad Ectoplasmic Driver",
+        "Question Every Dog",
+        "Quality Edward Device"
+      ]
+    },
+    {
+      "category": "Entertainment: Film",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In the movie &quot;Back to the Future,&quot; what speed does Doc Brown&#039;s DeLorean need to reach in order to travel through time?",
+      "correct_answer": "88 mph",
+      "incorrect_answers": ["77 mph", "100 mph", "70 mph"]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In the Mario Kart and Smash Bros. Games, Princess Rosalina is considered what weight class?",
+      "correct_answer": "Heavy",
+      "incorrect_answers": ["Medium", "Light", "Light-Medium"]
+    }
+  ]
+}
