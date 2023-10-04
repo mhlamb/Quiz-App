@@ -5,6 +5,8 @@ import QuestionList from "./components/QuestionList";
 import { Question } from "./assets/types";
 import { decodeHTMLEntities } from "./assets/functions";
 import "./App.css";
+import QuestionTitle from "./components/QuestionTitle";
+import QuizComplete from "./components/QuizComplete";
 
 function App() {
   const [questions, setQuestions] = useState<Question[] | null>(null);
@@ -62,11 +64,11 @@ function App() {
               className="container text-center bg-primary-subtle pb-2"
               style={{ borderRadius: "15px" }}
             >
-              <h4 style={{ fontStyle: "italic" }}>
-                Category: {questions[questionNumber].category}
-              </h4>
-              <h2>Question: {questionNumber + 1}</h2>
-              <h2 className="pb-2">{questions[questionNumber].question}</h2>
+              <QuestionTitle
+                question={questions[questionNumber]}
+                questionNumber={questionNumber}
+              ></QuestionTitle>
+
               <QuestionList
                 question={questions[questionNumber]}
                 questionNumber={questionNumber}
@@ -75,13 +77,7 @@ function App() {
               <h3>Score: {score}</h3>
             </div>
           ) : (
-            <div
-              className="container text-center bg-primary-subtle pb-2 d-grid"
-              style={{ borderRadius: "15px", height: "300px" }}
-            >
-              <h2>Quiz complete!</h2>
-              <h1>Final score: {score} / 10</h1>
-            </div>
+            <QuizComplete score={score}></QuizComplete>
           )}
         </>
       )}
